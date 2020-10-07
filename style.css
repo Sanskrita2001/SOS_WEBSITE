@@ -54,7 +54,6 @@ li.nav-item a.nav-link
 {
     color: #703EB2;
     margin-top: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /*Objective*/
 .objective h2
@@ -104,7 +103,6 @@ li.nav-item a.nav-link
     text-align: center;
     font-size: 18px;
     background: #fff;
-    box-shadow: 0 0 8px #703EB2;
 
     /* Center slide text vertically */
     display: -webkit-box;
