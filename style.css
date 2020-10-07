@@ -81,9 +81,15 @@ li.nav-item a.nav-link
 {
     color: #703EB2;
 }
-.blogs p
+.blogs a
 {
     margin-top: 0;
+    color: #703EB2;
+}
+.blogs a:hover
+{
+    text-decoration: none;
+    font-size: large;
 }
 /*Events*/
 .events
