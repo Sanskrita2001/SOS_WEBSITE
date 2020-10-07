@@ -14,6 +14,11 @@ html
     overflow-x : hidden;
     font-size : 1rem;
 }
+body
+{
+    background: 100% 100%;
+    overflow: hidden;
+}
 html,body{
     font-family: SF-Pro-Rounded;
 }
@@ -123,10 +128,23 @@ li.nav-item a.nav-link
 .gallery h2
 {
     color: #703EB2;
+    margin-bottom: 5%;
 }
-.gallery .card
+.gallery .jumbotron
 {
-    background: #777;
-    height: 35vh;
     box-shadow: 0 0 8px #703EB2;
+}
+
+/*Responsive*/
+@media(max-width:576px)
+{
+    html
+    {
+        font-size: 0.7rem;
+    }
+    .home p
+    {
+        margin-top: 5px;
+    }
+    
 }
