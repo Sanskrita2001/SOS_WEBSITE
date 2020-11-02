@@ -124,6 +124,15 @@ li.nav-item a.nav-link:hover {
 #About_Us .img-1 {
 	margin-left: 40%;
 }
+/* Board */
+.board .caption {
+	margin-top: 200px;
+}
+.boardimg {
+	border-radius: 15px;
+	box-shadow: 0 0 10px #000;
+	margin: 50px 0;
+}
 
 /*Responsive*/
 @media (max-width: 576px) {
@@ -142,6 +151,9 @@ li.nav-item a.nav-link:hover {
 		margin-top: 50%;
 		margin-left: 0;
 		width: 150px;
+	}
+	.board .caption h1 {
+		margin-left: 37%;
 	}
 }
 @media (max-width: 768px) {
