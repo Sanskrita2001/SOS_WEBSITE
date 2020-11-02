@@ -131,8 +131,65 @@
 		<div class="container" id="About_Us">
 			<div class="caption">
 				<h1 class="text-left mt-3 animate__animated animate__backInLeft">
-					<strong>About Us</strong>
+					<strong>Board</strong>
 				</h1>
+			</div>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img
+							src="Assets/images/HeartItOut.png"
+							alt="HeartItOut"
+							width="250 px"
+							height="250px"
+						/>
+					</div>
+					<div class="swiper-slide">
+						<img
+							src="Assets/images/DancingHeals.png"
+							alt="DancingHeals"
+							width="250 px"
+							height="250px"
+						/>
+					</div>
+					<div class="swiper-slide">
+						<img
+							src="Assets/images/LaVie.png"
+							alt="LaVie"
+							width="250 px"
+							height="250px"
+						/>
+					</div>
+					<div class="swiper-slide">
+						<img
+							src="Assets/images/Psych.png"
+							alt="Psych"
+							width="250 px"
+							height="250px"
+						/>
+					</div>
+					<div class="swiper-slide">
+						<img
+							src="Assets/images/HugsForHope.png"
+							alt="HugsForHope"
+							width="250 px"
+							height="250px"
+						/>
+					</div>
+					<div class="swiper-slide">
+						<img
+							src="Assets/images/Webinar.png"
+							alt="Webinar"
+							width="250 px"
+							height="250px"
+						/>
+					</div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination" style="color: #703eb2"></div>
+				<!-- Add Arrows -->
+				<div class="swiper-button-next" style="color: #703eb2"></div>
+				<div class="swiper-button-prev" style="color: #703eb2"></div>
 			</div>
 		</div>
 
@@ -152,5 +209,49 @@
 			integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
 			crossorigin="anonymous"
 		></script>
+		<script src="Js/swiper.min.js"></script>
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				slidesPerView: 3,
+				spaceBetween: 30,
+				slidesPerGroup: 3,
+				loop: true,
+				loopFillGroupWithBlank: true,
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+				scrollbar: {
+					el: '.swiper-scrollbar',
+					hide: false,
+				},
+				breakpoints: {
+					// when window width is >= 320px
+					320: {
+						slidesPerView: 1,
+						spaceBetween: 20,
+					},
+					// when window width is >= 480px
+					480: {
+						slidesPerView: 1,
+						spaceBetween: 30,
+					},
+					// when window width is >= 640px
+					560: {
+						slidesPerView: 2,
+						spaceBetween: 40,
+					},
+					960: {
+						slidesPerView: 3,
+						spaceBetween: 40,
+					},
+				},
+			});
+		</script>
 	</body>
 </html>
